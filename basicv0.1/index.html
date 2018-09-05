@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>basicv0.1</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+  <h2>Vue examples</h2>
+  <p>From the <a href="https://vuejs.org/v2/guide/">Vue 2 Guide</a></p>
+  <noscript>
+      <strong>We're sorry but basicv0.1 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+  <div id="app-1">
+   <hr><h3>String interpolation.</h3>
+    <p> In console, change app1.message </p>
+    A message from VUE: {{message}}
+  </div>
+  <div id="app-2">
+    <hr><h3>v-bind example</h3>
+   <span v-bind:title="message">
+    Hover your mouse over me for a few seconds
+    to see my dynamically bound title!
+   </span>
+ </div>
+ <div id="app-3">
+   <hr><h3>v-if example</h3>
+  <span v-if="seen">Now you see me</span>
+  <p>change app3.seen to false to make message disappear</p>
+ </div>
+ <div id="app-3a">
+   <hr><h3>v-if example, with transition</h3>
+   <p>The transition doesn't work properly -- not sure why </p>
+   <br>See <a href="https://vuejs.org/v2/guide/transitions.html">Transition effects</a>
+   <br>
+  <button v-on:click="show = !show">
+    Toggle
+  </button>
+  <transition name="fade">
+    <p v-if="show">hello</p>
+  </transition>
+ </div>
+ <div id="app-4">
+  <hr><h3> v-for example</h3>
+  <ol>
+    <li v-for="todo in todos">
+      {{ todo.text }}
+    </li>
+  </ol>
+ </div>
+
+ <div id="app-5">
+  <hr><h3> v-on example</h3>
+  <p>{{ message }}</p>
+  <button v-on:click="reverseMessage">Reverse Message</button>
+ </div>
+
+ <div id="app-6">
+  <hr><h3> v-model example</h3>
+  <p>{{ message }}</p>
+  <input v-model="message">
+ </div>
+
+<div id="app-7">
+  <hr><h3>Component example</h3>
+  <ol>
+    <!--
+      Now we provide each todo-item with the todo object
+      it's representing, so that its content can be dynamic.
+      We also need to provide each component with a "key",
+      which will be explained later.
+    -->
+    <todo-item
+      v-for="item in groceryList"
+      v-bind:todo="item"
+      v-bind:key="item.id">
+    </todo-item>
+  </ol>
+</div>
+<script src="js/part1.js"></script>
+
+  </body>
+</html>

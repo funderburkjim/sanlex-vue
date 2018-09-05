@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>basicv0.1</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+  <H2>Vue components</H2>
+  <p>see <a href="https://vuejs.org/v2/guide/components.html">Vue Guide: components</a></p>
+
+ <div id="components-demo">
+   <hr><h3>Counter increment</h3>
+   <button-counter></button-counter><br/>
+   <button-counter></button-counter>
+</div>
+<div>
+  <hr><h3>Component registration</h3>
+  <p>There are several ways to <a href="https://vuejs.org/v2/guide/components-registration.html">register components</a>.</p>
+</div>
+  <noscript>
+      <strong>We're sorry but basicv0.1 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+<div id="blog-post-demo">
+  <hr><h3>First blog post demo</h3>
+  <!-- note use of 'key'. This is NOT a prop of the blog-post component
+       'key' is special. Without it th following 'Vue tio' is printed to console:
+       component lists rendered with v-for should have explicit keys.
+       See https://vuejs.org/guide/list.html#key
+     -->
+  <blog-post
+  v-for="post in posts"
+  v-bind:id="post.id"
+  v-bind:key="post.id"
+  v-bind:title="post.title"
+></blog-post>
+</div>
+
+<div id="blog-post-demo1">
+  <hr><h3>Second blog post demo</h3>
+  <!-- note use of 'key'. This is NOT a prop of the blog-post component
+       'key' is special. Without it th following 'Vue tio' is printed to console:
+       component lists rendered with v-for should have explicit keys.
+       See https://vuejs.org/guide/list.html#key
+     -->
+  <blog-post1
+  v-for="post in posts"
+  v-bind:key="post.id"
+  v-bind:post="post"
+></blog-post1>
+</div>
+
+<div id="blog-post-events-demo">
+  <hr><h3>Third blog post demo</h3>
+  <!-- note use of 'key'. This is NOT a prop of the blog-post component
+       'key' is special. Without it th following 'Vue tio' is printed to console:
+       component lists rendered with v-for should have explicit keys.
+       See https://vuejs.org/guide/list.html#key
+     -->
+  <div :style="{ fontSize: postFontSize + 'em' }">
+   <blog-post2
+   v-for="post in posts"
+   v-bind:key="post.id"
+   v-bind:post="post"
+   v-on:enlarge-text="postFontSize += 0.1"
+ ></blog-post2>
+</div>
+</div>
+
+
+<script src="js/part1a.js"></script>
+
+
+  </body>
+</html>

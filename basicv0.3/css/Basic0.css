@@ -1,0 +1,119 @@
+@font-face {
+ src: url(../fonts/siddhanta.ttf),
+      url(https://sanskrit-lexicon.github.io/sanskrit-fonts/siddhanta.ttf)
+ ;
+ font-family: siddhanta_deva;
+}
+/*
+@font-face {
+ src: url(http://www.sanskrit-lexicon.uni-koeln.de/scans/awork/apidev/fonts/siddhanta.ttf);
+ font-family: siddhanta_deva;
+}
+*/
+
+.CologneBasic0  .sdata_siddhanta {
+ color:teal;
+ font-size:larger;
+ font-weight: normal; /* 07-14-2018*/
+ font-family: siddhanta_deva;
+}
+
+.CologneBasic0  td {line-height: 130%;}  /*150%; changed 07-14-2018*/
+.CologneBasic0  .greek {
+ font-family: Gentium, Palatino Linotype, Arial Unicode MS;
+ font-size: 12pt;
+}
+.CologneBasic0  .g {font-size:smaller;font-style:italic;}
+.CologneBasic0  .lang {font-size:smaller;font-style:italic;}
+.CologneBasic0  .hrefdata {font-size:smaller;}
+.CologneBasic0  .lnum {font-size:smaller;}
+/*.sdata {color:black;font-size:larger;} */ /* for devanagari */
+.CologneBasic0  .sdata {color:teal;}
+.CologneBasic0  .sdatadeva {color:teal;font-size:larger;}
+.CologneBasic0  .asdata {color:blue;font-size:larger;}
+.CologneBasic0  .pb {font-size:smaller; }
+.CologneBasic0  .hom {color:red;}
+.CologneBasic0  .footnote {font-size:smaller;}
+.CologneBasic0  .ls {
+color:gray;
+font-size:smaller;
+}
+.CologneBasic0  .gram {font-weight:bold;}
+.CologneBasic0  .divm {font-weight:bold;}
+.CologneBasic0  .wide {font-stretch:wider;}
+
+.CologneBasic0  p {
+	padding-left: 15pt;
+	padding-right: 15pt;
+}
+/*
+#disp {
+  position:absolute;
+  left: 1%;
+  width: 98%;
+ background-color: white;
+ overflow-y:auto;
+ overflow-x:hidden;
+ height: 400px;
+}
+*/
+.CologneBasic0  table.display {
+  width: 100%;
+  margin-left:     5px;
+  margin-right:    5px;
+  margin-top: 10px; /* 20px; Dec 5, 2013 */
+/*
+  font-size:       larger;
+  border-style: solid;
+  border: 2px;
+  padding: 15px;
+*/
+}
+.CologneBasic0  td, th {
+  padding:         5px;
+  text-align:      left;
+/*  background-color: #DBE4ED;  */
+}
+.CologneBasic0  td.display {
+ /* font-weight: normal; */
+}
+.CologneBasic0  plex {
+	color: black;
+	background-color: #36648b;
+	/*font-family: verdana,arial,helvetica,sansserif; */ /*Dec 5, 2013*/
+	font-size: 12pt;
+}
+
+.CologneBasic0  h1 {
+	font-size: 24pt;
+}
+
+.CologneBasic0  h2 {
+	font-size: 20pt;
+	padding-left: 15pt;
+	padding-top: 20pt;
+}
+
+.CologneBasic0  h3 {
+	font-size: 18pt;
+	padding-left: 30pt;
+	padding-top: 20pt;
+}
+
+.CologneBasic0  a:link {
+        color: black;
+	/* color: #00008b; */
+}
+
+.CologneBasic0  a:visited {
+	color: #36648b;
+}
+
+.CologneBasic0  a:active {
+	color: #4876ff;
+}
+
+.CologneBasic0  a:hover {
+	background-color: #ffffcc;
+	color: #000033;
+}

@@ -5,7 +5,7 @@ var app_wordlists = [
    'jAhnavI','Pena','leKA','mUrDan','SaSina','kalA',
    'SrutaH','ayam','pAwava','saMskfta','ukta',
    'vAc','sarvatra','vEcitrya','nIti','vidyA','dA',
-   'praSaMsa',
+   'praSaMsA',
    'ajara','amaravat','prAjYa','arTa','cit',
    'gfhIta','keSa','mftyu','Darma','Acar',
    'sarva','dravya','ah','anuttama',

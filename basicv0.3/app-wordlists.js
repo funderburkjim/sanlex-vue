@@ -42,7 +42,7 @@ var app_wordlists = [
 "vara","garBa","srAva","aBigamana",
 "vara","jAta","preta","kanyA","ajanitA",
 "vara","banDya","BAryA","garBa","vasati",
-"vidvas","rUpa","draviRa","guRa",yukta","tanaya",
+"vidvas","rUpa","draviRa","guRa","yukta","tanaya",
 "jAta","jAta","yA","vaMSa","samunnati",
 "parivartin","saMsAra","mfta","jan",
 "anyat",

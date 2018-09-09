@@ -41,3 +41,20 @@ to you in running Basicv0.3, etc., just repeat your call.
 If enough people use adaptations of this code and have similar problems,
 I'll work on finding a more robust solution.
 
+### Basicv0.4
+This is functionally like Basicv0.3 -- You get to choose a wordlist, and
+then can get dictionary lookups by clicking on the words in the wordlist.
+The difference is that the wordlists format is different. 
+* app_wordlists.js is a simple javascript file defining the array of
+  wordlists.  Each wordlist in the array is a Javascript object literal
+  `{name:'wordlist name', input:'spelling method', url:'url of wordlist file'}`
+* The wordlists directory contains the files mentioned in the array
+  of wordlists.  Thus, if app_wordslists.js specifies a wordlist as
+  `{name:'My favorite words',input:'slp1',url:'../wordlists/favwords.txt'}`,
+  then there should be a file 'favwords.txt' in the wordlists directory.
+* The format of a wordlist file currently is:
+  * a file of lines, with one word on each line.
+  * each line can have other information, separated from the word by one
+    or more spaces. This extra information is optional; if present it
+    is not currently used by Basicv0.4
+

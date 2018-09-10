@@ -57,4 +57,9 @@ The difference is that the wordlists format is different.
   * each line can have other information, separated from the word by one
     or more spaces. This extra information is optional; if present it
     is not currently used by Basicv0.4
-
+* Server required for Basicv0.4.  This is in contrast to Basicv0.3,
+  which works even if index.html is opened on your local computer as a file.
+  An example on my computer of the 'file://' protocol for browser url:
+  * Works: file:///C:/Users/Jim/Documents/GitHub/sanlex-vue/basicv0.3/index.html
+  * Doesn't work: file:///C:/Users/Jim/Documents/GitHub/sanlex-vue/basicv0.4/index.html  
+    The display here opens, but no wordlist can be chosen due to CORS error.

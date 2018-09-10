@@ -1,0 +1,19 @@
+a.app-wordlist:link {
+  background-color: white;
+  text-decoration: none;
+  color:black;
+}
+a.app-wordlist:visited {
+  color: green; /* this doesn't work */
+}
+a.app-wordlist:focus {
+  cursor: hand;
+}
+a.app-wordlist:hover {
+  /*font-size:larger;*/
+  color:green;
+}
+a.app-wordlist:active {
+  /*font-weight:bold;*/
+  color:red;
+}

@@ -10,7 +10,7 @@ Vue.component('basic0-parm-input', {
    <option value='slp1'>SLP1</option>
    <option value='itrans'>ITRANS</option>
    <option value='deva'>Devanagari</option>
-   <option value='roman'>IAST</option>
+   <option value='iast'>IAST</option>
   </select>
   </div>
   `,

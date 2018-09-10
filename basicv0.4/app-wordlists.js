@@ -6,4 +6,5 @@ var app_wordlists = [
   comment:'0065 - 0099',
   url:'../wordlists/hitopadesha02.txt',
 },
+ {name:'Testiast',input:'iast',url:'../wordlists/testiast.txt'}
 ]

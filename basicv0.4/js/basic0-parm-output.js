@@ -9,7 +9,7 @@ Vue.component('basic0-parm-output', {
    <option value='roman'>IAST</option>
    <option value='hk' >KH</option>
    <option value='slp1'>SLP1</option>
-   <option value='itrans'>ITRANS</option>
+   <option value='iast'>ITRANS</option>
   </select>
   </div>
   `,

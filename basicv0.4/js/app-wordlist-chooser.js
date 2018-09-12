@@ -61,7 +61,8 @@ Vue.component('app-wordlist-chooser', {
     });
   },
    get_words_from_csv: function(text){
-     let lines = text.split(/\n/);
+     let lines0 = text.split(/\n/);
+     let lines = lines0.filter( (line) => (line.length > 0) && (line[0]!=';'));
      let words=lines.map(function(x) {
        // line x is a space-delimited string
        let parts = x.split(/ +/);

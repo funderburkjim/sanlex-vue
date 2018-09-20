@@ -5,256 +5,265 @@ arogitA
 ; 0101
 priyA
 BAryA
-priyavAdinI
+priyavAdin
 ; 0102
 vaSya
 putra
-arTakarI
+arTakara
 vidyA
 ; 0103
 zaq
-jIvalokasya
-suKAni
+jIvaloka
+suKa
 rAjan
 ; 0104
 Danya
-bahuBi
-putrE
-kuSUlApUraRAQakE
+bahu
+putra
+kuSUla
+ApUraRa
+AQaka
 ; 0105
 vara
 eka
-kulAlambI
-viSrUyate
-pitA
+kulAlambin
+viSru
+pitf
 ; 0106
-fRakartA
-pitA
+fRakartf
 Satru
-mAtA
+mAtf
 vyaBicAriRI
 ; 0107
 BAryA
 rUpavatI
 Satru
 putra
-Satru
 apaRqita
 ; 0108
 prasUta
-guRavAn
-pUjyate
+guRavat
+pUj
 nara
 ; 0109
-DanurvaMSaviSudDa
+Danus
+vaMSaviSudDa
 nirguRa
-karizyati
+kf
 ; 0110
-hA
 hA
 putraka
 aDIta
-gatAsu
-etAsu
-rAtrizu
+gata
+etad
+rAtri
 ; 0111
 tva
-viduzA
-maDye
-paNke
-gO
+vidus
+maDya
+paNka
+go
 iva
-sIdasi
+sad
 ; 0112
-tat
+tad
 kaTa
-idAnI
-ete
-mama
-putrA
-guRavanta
-kriyantA
-?
-yata
+idAnIm 
+etad
+asmad
+putra
+guRavat
+kf
+yatas
 ; 0113
-AhAranidrABayamETunAni
+AhAra
+nidrA
+Baya
+mETuna
 ; 0114
 sAmAnya
-etat
-paSuBi
-narARA
+etad
+paSu
+nara
 ; 0115
 jYAna
-narARA
 aDika
-viSezo
+viSeza
 ; 0116
-jYAnena
-hInA
-paSuBi
-samAnA
+jYAna
+hIna
+paSu
+samAna
 ; 0117
-yata
+yatas
 ; 0118
-DarmArTakAmamokzARA
+Darma
+arTa
+kAma
+mokzARa
 eka
-vidyate
+vid
 ; 0119
-ajAgalastanasya
+ajAgala
+stana
 iva
-janma
+janman
 nirarTaka
 ; 0120
 yad
-ucyate
+vac
 ; 0121
-Ayu
-karma
+Ayus
+karman
 vitta
 vidyA
 niDana
 ; 0122
-paYca
-etAni
+paYcan
+etad
 hi
-sfjyante
-garBasTasya
-dehina
+sfj
+garBasTa
+dehin
 ; 0123
 ; 0124
 avaSya
-BAvina
-BAvA
-Bavanti
-mahatA
+BAvin
+BAva
+BU
+mahat
 ; 0125
 nagnatva
-nIlakaRWasya
+nIlakaRWa
 mahAhiSayana
-hare
+hari
 ; 0126
-anyat
+anya
 ; 0127
 yad
-aBAvi
+aBAvin
 tad
-BAvi
-BAvi
-cet
+BAvin
+ced
 tad
 anyaTA
 ; 0128
-cintAvizaGna
-aya
+cintA
+vizaGna
+ayam
 agada
-pIyate
+pA
 ; 0129
-etat
-kAryAkzamARA
-kezA
+etad
+kArya
+akzama
+ka
 cid
-Alasyavana
+Alasya
+vacana
 ; 0130
-puruzakArOtkarzya
+puruzakAra
+utkfz
 Aha
 ; 0131
 hi
-ekena
-cakreRa
-raTasya
+eka
+cakra
+raTa
 gati
-Bavet
+BU
 ; 0132
-puruzakAreRa
+puruzakAra
 vinA
 dEva
-sidDyati
+; sidDyati should it be siDyati ?
+siD
 ; 0133
 ; 0134
 pUrvajanmakfta
-karma
+karman
 tad
 dEva
-kaTyate
+kaT
 ; 0135
-tasmAt
-puruzakAreRa
+tad
+puruzakAra
 yatna
-kuryAt
+kf
 atandrita
 ; 0136
 dEva
 saMcintya
-tyajet
+tyaj
 udyoga
-Atmana
+Atman
 ; 0137
-anudyogena
-tElAni
-tileBya
-Aptu
-arhati
+anudyoga
+tEla
+tila
+Apt
+arh
 ; 0138
-anyacca
+anyat
 ; 0139
-udyogina
+udyogin
 puruzasiMha
-upEti
+upe
 lakzmI
 ; 0140
-dEvena
+dEva
 deya
-kApuruzA
-vadanti
+kApuruza
+vad
 ; 0141
 dEva
-nihatya
-kuru
+nihan
+kf
 pOruza
-AtmaSaktyA
+AtmaSakti
 ; 0142
-yatne
-kfte
+yatna
+kfta
 yadi
-siDyati
+siD
 doza
 ; 0143
-mftpiRqata
-kartA
-kurute
+mfd
+piRqatas
+kartf
+kf
 yad
-yad
-icCati
+iz
 ; 0144
 eva
 Atmakfta
-karma
+karman
 mAnava
-pratipadyate
+pratipad
 ; 0145
 kAkatAlIyavat
 prApta
-dfzwvA
+dfS
 niDi
-agrata
+agratas
 ; 0146
-svaya
+svayam
 dEva
-Adatte
+AdA
 puruzArTa
-apekzate
+apekz\
 ; 0147
-udyamena
+udyama
 hi
-siDyanti
-kAryARi
-manoraTE
+siD
+kArya
+manoraTa
 ; 0148
 nahi
-suptasya
-siMhasya
-praviSanti
-muKe
-mfgA
+supta
+siMha
+praviS
+muKa
+mfga
 ; 0149
 ukta

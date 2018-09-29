@@ -1,0 +1,288 @@
+; 0150
+mAtf
+Satru
+pitf
+vErin
+bAla
+pAWita
+; 0151
+SuB
+saBA
+maDya
+haMsa
+baka
+; 0152
+rUpa
+yOvana
+sampanna
+viSAlakulasamBava
+; 0153
+vidyAhIna
+SuB
+nirganDa
+iva
+kiMSuka
+; 0154
+apara
+; 0155
+pustaka
+aDIta
+guru
+saMniDa
+; 0156
+SuB
+saBA
+maDya
+jAragarBa
+strI
+; 0157
+etad
+cint
+; 0158
+rAjan
+paRqita
+saBA
+kAritavAn
+vac
+Bo
+; 0159
+Sru
+mama
+vacana
+as
+cid
+eva
+BUta
+vidvas
+; 0160
+mama
+putra
+nityam
+unmArgagAmin
+anaDigataSAstra
+idAnIm
+; 0161
+nItiSAstra
+upadeSa
+punar
+janman
+kf
+samarTa
+yatas
+; 0162
+kAca
+kAYcana
+saMsarga
+DA
+mArakata
+dyuti
+; 0163
+sat
+saMniDAna
+mUrKa
+yA
+pravIRatA
+pravIRatva
+; 0164
+ukta
+; 0165
+hA
+hi
+mati
+tAta
+hIna
+saha
+samAgamAt
+; 0166
+sama
+samatA
+eti
+viSizwa
+viSizwatA
+; 0167
+antara
+vizRuSarman
+nAman
+mahApaRqita
+; 0168
+sakala
+nItiSAstra
+tattvajYa
+bfhaspati
+iva
+brU
+deva
+; 0169
+mahAkula
+samBUta
+; 0170
+etad
+rAjaputra
+tad
+asmad
+nIti
+grah
+Sak
+yatas
+; 0171
+adravya
+nihita
+ka
+cid
+kriyA
+PalavatI
+BU
+; 0172
+vyApAra
+Sata
+Sukavat
+paW
+baka
+; 0173
+anya
+; 0174
+idam
+nirguRa
+gotra
+apatya
+upajan
+; 0175
+Akara
+padya
+rAga
+janman
+kAcamaRi
+kutas
+; 0176
+atas
+aham
+zaRmAsa
+aByantara
+Bavat
+putra
+; 0177
+nItiSAstra
+aBijYa
+kf
+rAjan
+savinaya
+punar
+vac
+; 0178
+kIwa
+sumana
+saNga
+Aruh
+sat
+Siras
+; 0179
+aSman
+yA
+devatva
+mahat
+supratizWita
+; 0180
+anya
+; 0181
+udaya
+gir
+dravya
+saMnikarza
+dIp
+; 0182
+sat
+saMniDAna
+hInavarRa
+dIp
+; 0183
+guRa
+guRajYa
+guRagrahaRa
+guRa
+BU
+; 0184
+tad
+nirguRa
+prApya
+BU
+doza
+; 0185
+AsvAdyatoya
+pravah
+nadI
+; 0186
+samudra
+Asad
+BU
+upeya
+; 0187
+tad
+etad
+asmad
+putra
+nItiSAstra
+upadeSa
+Bavat
+; 0188
+pramARa
+uktvA
+vizRuSarman
+kara
+bahumAna
+puraHsara
+putra
+; 0189
+samarpitavat
+; 0191
+mitralABa
+; 0192
+aTa
+prAsAdapfzWa
+suKopavizwa
+rAjaputra
+purastAt
+; 0193
+prastAva
+krama
+paRqita
+brU
+Bo
+rAjaputra
+Sru
+; 0194
+kAvya
+SAstra
+vinoda
+kAla
+gam
+DImat
+; 0195
+vyasana
+mUrKa
+nidrA
+kalaha
+; 0196
+tad
+Bavat
+vinoda
+kAkakUrmAdi
+vicitra
+kaTa
+kaT
+; 0197
+rAjaputra
+ukta
+Arya
+kaT
+vizRuSarman
+vac
+; 0198
+Sru
+yUyam
+; 0199
+samprati
+mitralABa
+prastu
+ayam
+Adi
+Sloka

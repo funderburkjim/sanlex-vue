@@ -4,7 +4,7 @@ var app_wordlists = [
  {name:'Hitopadesha03: 0100-0149',input:'slp1',  url:'wordlists/hitopadesha03.txt',},
  {name:'Hitopadesha04: 0150-0199',input:'slp1', url:'wordlists/hitopadesha04.txt',},
  {name:'Hitopadesha05: 0200-0249',input:'slp1', url:'wordlists/hitopadesha05.txt',},
- {name:'Hitopadesha06',input:'slp1', url:'wordlists/hitopadesha06.txt',},
+ {name:'Hitopadesha06: 0250-0299',input:'slp1', url:'wordlists/hitopadesha06.txt',},
  {name:'Hitopadesha07',input:'slp1', url:'wordlists/hitopadesha07.txt',},
  //{name:'Testiast',input:'iast',url:'wordlists/testiast.txt'}
 ]

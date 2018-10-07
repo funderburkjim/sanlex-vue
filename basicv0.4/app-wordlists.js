@@ -6,5 +6,6 @@ var app_wordlists = [
  {name:'Hitopadesha05: 0200-0249',input:'slp1', url:'wordlists/hitopadesha05.txt',},
  {name:'Hitopadesha06: 0250-0299',input:'slp1', url:'wordlists/hitopadesha06.txt',},
  {name:'Hitopadesha07: 0300-0349',input:'slp1', url:'wordlists/hitopadesha07.txt',},
+ {name:'Hitopadesha08: 0350-0399',input:'slp1', url:'wordlists/hitopadesha08.txt',},
  //{name:'Testiast',input:'iast',url:'wordlists/testiast.txt'}
 ]

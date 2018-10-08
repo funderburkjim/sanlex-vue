@@ -8,5 +8,7 @@ var app_wordlists = [
  {name:'Hitopadesha07: 0300-0349',input:'slp1', url:'wordlists/hitopadesha07.txt',},
  {name:'Hitopadesha08: 0350-0399',input:'slp1', url:'wordlists/hitopadesha08.txt',},
  {name:'Hitopadesha09: 0400-0449',input:'slp1', url:'wordlists/hitopadesha09.txt',},
+ {name:'Hitopadesha10: 0450-0499',input:'slp1', url:'wordlists/hitopadesha10.txt',},
+ {name:'Hitopadesha11: 0500-0549',input:'slp1', url:'wordlists/hitopadesha11.txt',},
  //{name:'Testiast',input:'iast',url:'wordlists/testiast.txt'}
 ]

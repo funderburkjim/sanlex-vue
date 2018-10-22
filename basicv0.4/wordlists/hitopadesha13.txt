@@ -1,15 +1,15 @@
 ; 0600
-jiGranti
-SfRvanti
-pSyanti
-gatAyuza
+GrA
+Sru
+dfS
+gatAyus
 ; 0601
 parokza
-kAryahantAra
+kAryahantf
 pratyakza
-priyavAdina
+priyavAdin
 ; 0602
-varjayet
+vfj
 tAdfSa
 mitra
 vizakumBa
@@ -21,91 +21,95 @@ dIrGa
 niHSvasya
 vac
 ; 0604
-ara
+ari
 vaYcaka
-\!
-tvayA
-pApakarmaRA
+tva
+pApakarman
 kfta
 yatas
 ; 0605
 saMlApita
-maDurErvacoBir
+maDura
+vacas
 ; 0606
 miTyopacAra
 vaSIkfta
 ; 0607
-ASAvatA
-SraddaDatA
+ASAvat
+Srad
+DA
 loka
 ; 0608
-kimarTinA
-vaYcayitavyamasti
+arTin
+vaYcayitavya
+as
 ; 0609
 anya
 ; 0610
-upakAriRi
+upakArin
 viSrabDa
-SudDamatO
-samAcarati
+SudDamati
+samAcar
 pApa
 ; 0611
 ta
-janamasatyasanDa
-Bagavati
-vasuDa
+jana
+asatyasanDa
+Bagavat
+vasuDA
 kaTam
-vahasi
+vah
 ; 0612
 durjana
 sama
 saKya
 vEra
-cApi
-kArayet
+kf
 ; 0613
 uzRa
-dahati
-cANgAra
+dah
+aNgAra
 SIta
-kfzRAyata
+kfzRAya
 kara
 ; 0614
 aTavA
-sTitiriya
+sTiti
+idam
 durjana
 ; 0615
 prAk
-pAdayo
-patati
-KAdati
+pAda
+pat
+KAd
 pfzWamAMsa
 ; 0616
 karRa
 Pala
-kimapi
-rOti
-SanErvicitra
+ru
+Sana
+vicitra
 ; 0617
 Cidra
 nirUpya
 sahasA
-praviSatyaSaNka
+praviS
+aSaNka
 ; 0618
 sarva
 Kala
 carita
 maSaka
-karoti
+kf
 ; 0619
 ; 0620
 durjana
-priyavAdI
-nEtad
+priyavAdin
+etad
 viSvAsakAraRa
 ; 0621
 maDu
-tizWati
+sTA
 jihvAgra
 hfdi
 hAlAhala
@@ -113,111 +117,131 @@ viza
 ; 0622
 aTa
 praBAta
-kzetrapatirlaguqahastasta
-pradeSamAgacCan
+kzetrapati
+laguqahasta
+ta
+pradeSa
+Agam
 ; 0623
-kAkenAvalokita
-tamavalokya
-kAkenokta
-saKa
+kAka
+avalokita
+ta
+avalokya
+kAka
+ukta
+saKi
 mfga
-\!
-tvamAtmAna
+tva
+AtmAna
 ; 0624
 mftavat
-sandarSya
-vAtenodara
+saMdfS
+vAta
+udara
 pUrayitvA
 pAda
-stabDIkftya
-tizWa
+stabDIkf
+sTA
 ; 0625
 aham
 tava
-cakzuzI
-caYcvA
-kimapi
-viliKAmi\,
+cakzuz
+caYcU
+viliK
 ; 0626
-yadAha
+yadA
+aham
 Sabda
-karomi\,
+kf
 tadA
-tvamutTa
-satvara
-palAyizyasa
+tva
+utTA
+satvaram
+palAy
 ; 0627
-mfgastaTEva
+mfga
 kAkavacana
 ; 0628
 sTita
 tatas
-kzetrapatinA
+kzetrapati
 harzotPullalocana
-taTAviDo
+taTAviDa
 ; 0629
 mfga
 Alokita
-aTAsO
+aTa
+adas
 AH
-\!
-svaya
+svayam
 mfta
 asi
-\?
-ityuktvA
+uktvA
 ; 0630
 mfga
 banDana
 mocayitvA
 pASa
-saMvarItu
+saMvf
 satvara
-baBUva
+bU
 ; 0631
 tatas
-kiyad
+kiyat
 dUra
 antarita
-kzetrapatO
+kzetrapati
 mfga
 kAka
 Sabda
 ; 0632
 Sru
-satvaramutTa
+satvara
+utTA
 palAyita
-tamuddiSya
-kzetrapatinA
+ta
+uddiSya
+kzetrapati
 ; 0633
 prakopa
 kzipta
 laguqa
 SfgAla
 vyApAdita
-cokta
+ukta
 ; 0634
-triBirvarzEstriBirmAsEstriBi
-pakzEstriBirdina
+tri
+varza
+mAsa
+pakza
+dina
 ; 0635
 atyutkawa
-pApapuRyErihEva
-PalamaSnuta
+pApapuRya
+iha
+Pala
+aS
 ; 0636
 atas
 aham
-bravImi
-BakzyaBakzyakayo
-prItirityAdi
+brU
+BakzyaBakzaka
+prIti
+ityAdi
+iti
 ; 0637
-mfgavAyasaSfgAlakaTA
+mfga
+vAyasa
+SfgAla
+kaTA
 ; 0638
 kAka
-punarAha
+punar
+ah
 ; 0639
-BakzitenApi
-BavatA
-nAhAra
+Bakzita
+Bavat
+AhAra
 mama
 puzkala
 ; 0640
@@ -225,47 +249,49 @@ tvayi
 jIvati
 jIvAmi
 citragrIva
-ivAnaGa
+anaGa
 ; 0641
 anya
 ; 0642
-tira
-cAmapi
+tiryaYc
 viSvAsa
-dfzwa
-puRyEkakarmaRA
+dfzwA
+puRyEkakarman
 ; 0643
-satA
+sat
 hi
 sADuSIlatva
 svaBAva
-nivartata
+nivft
 ; 0644
 ; 0645
-sADo
-prakopitasyApi
-mana
-nAyAti
+sADu
+prakopita
+manas
+AyA
 vikriyA
 ; 0646
 hi
 tApayitu
 Sakya
-sAgarAmBastfRolkayA
+sAgara
+amBas
+tfRolkayA
 ; 0647
 hiraRyaka
-brUta
-capalastva
+brU
+capala
+tva
 ; 0648
 capala
 saha
 sneha
 sarvaTA
 kartavya
-cokta
+ukta
 ; 0649
 mArjAra
 mahiza
 meza
 kAka
-kApuruzastaTA
+kApuruza

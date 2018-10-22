@@ -1,52 +1,59 @@
 ; 0550
 palAyita
-paSca
-pakziBiritastata
-nirUpayadBistatra
+paScAt
+pakzin
+itas
+tatas
+nirUpayat
+tatra
 tarukowara
 ; 0551
 SAvaka
-KAditA
+KAdita
 sarva
-pakziBirni
-citya
-gfDro
+pakzin
+niScitya
+gfDra
 ; 0552
 vyApAdita
 atas
 aham
-bravImi
+brU
 ajYAtakulaSIla
 ityAdi
 ; 0553
-ityAkarRya
+AkarRya
 jambuka
-sakopamAha
+sakopa
+ah
 mfga
 praTamadarSanadina
 ; 0554
-Bava
+Bavat
 ajYAtakulaSIla
 AsIt
-tat
-kaTa
+tad
+kaTam
 ; 0555
-BavatA
+Bavat
 saha
 eta
-snehAnuvfttiruttarottara
-varData
-\?
-aTavA'
+snehAnuvftti
+uttarottaram
+vfD
+aTavA
 ; 0556
 vidvajjana
-nAsti
-SlAGyastatrAlpaDIrapi
+asti
+SlAGya
+tatra
+alpaDI
 ; 0557
-nirastapAdapa
+nirasta
+pAdapa
 deSa
 eraRqa
-drumAyata
+drumAya
 ; 0558
 anya
 ; 0559
@@ -55,70 +62,73 @@ nija
 para
 veti
 gaRanA
-laGucetasA
+laGucetas
 ; 0560
 udAracarita
-vasuDEva
+vasuDA
 kuwumbaka
 ; 0561
-cAya
+ayam
 mfga
 mama
-banDustaTA
+banDu
 Bava
 ; 0562
 mfga
 brU
-kamanena
+ka
+idam
 uttarottara
-\?
 ; 0563
-sarvErekatra
+sarva
+ekatra
 viSramBAlApa
-suKamanuBavadBi
-sTIyatA
+suKa
+; 
+anuBU
+sTA
 yatas
 ; 0564
-cit
-kasyacin
+cid
 mitra
-cit
-kasyacid
+cid
 ripu
 ; 0565
 vyavahAra
-mitrARi
-jAyanta
-ripavastaTA
+mitra
+jan
+ripu
 ; 0566
-kAkena
+kAka
 ukta
-evamastu
+evam
+as
 aTa
-prAta
+prAtar
 sarva
-yaTABimatadeSa
+aBimata
+deSa
 gata
 ; 0567
 ekadA
-niBfta
+niBftam
 SfgAla
-brUta
-saKa
+brU
+saKi
 mfga
-\!
-etasminn
+etad
 ; 0568
 vanEkadeSa
 sasyapUrRa
-kzetramasti
+kzetra
+as
 tad
 aham
-tvA
+tva
 tatra
 nItvA
 ; 0569
-darSayAmi
+dfS
 kfta
 sati
 mfga
@@ -129,79 +139,89 @@ sasya
 ; 0570
 KAdati
 tatas
-dinakatipaya
-kzetrapatinA
+dina
+katipayena
+kzetrapati
 tad
 dfS
-pASAstatra
+pASa
+tatra
 ; 0571
 yojita
-anantara
+anantaram
 ; 0572
-punarAgata
+punar
+Agata
 mfga
 tatra
-caran
-pASErbadDa
-acintayat
-ko
+car
+pASa
+badDa
+cint
 ; 0573
-mAmita
+mAm
+ita
 kAlapASa
-vyADapASa
-trAtu
+vyADa
+pASa
+trE
 mitra
 anya
 samarTa
-\?
 ; 0574
-atrAntara
-jambukastatrAgatya
+atra
+antare
+jambuka
+tatra
+Agatya
 upasTita
 acintayat
-PalitastAvad
+Palita
+tAvad
 ; 0575
-asmAka
+asmad
 kapawaprabanDa
-manoraTasidDirapi
+manoraTasidDi
 bAhulya
 ; 0576
 ma
-Bavizyati
+BU
 yatas
 etasya
-uktftyamAna
-mAMsAsfgliptAni
+utkftya
+mAna
+mAMsa
+asfj
+lipta
 ; 0577
-asTIni
-mayA
+asTi
+ma
 avaSya
-prAptavyAni
-tAni
+prAptavya
+tad
 bAhulya
 mama
-BojanAni
+Bojana
 ; 0578
-Bavizyanti
-mfgasta
+BU
+mfga
 dfS
 ullAsita
-brUta
-saKa
-\!
+brU
+saKi
 ; 0579
-CinDi
-tAvan
+Cid
+tAvat
 mama
 banDana
 satvara
-trAyasva
-mA
+trE
+ma
 yatas
 ; 0580
 Apatsu
 mitra
-jAnIya
+jyA
 raRa
 SUra
 fRa
@@ -219,108 +239,118 @@ utsava
 vyasana
 prApta
 durBikza
-SatrusaNkawa
+Satru
+saMkawa
 ; 0584
 rAjadvAra
 SmaSAna
-yastizWati
+sTA
 bAnDava
 ; 0585
 jambuka
 pASa
-muhurmuhurvilokyAcintayat
-dfQastAvad
+muhur
+vilokya
+cint
+dfQa
+tAvat
 ayam
 banDa
 ; 0586
-brUta
-saKa
-\!
+brU
+saKi
 snAyunirmita
-pASAH\,
+pASAH
 tad
 adya
 BawwArakavAra
 ; 0587
-kaTameta
+kaTam
+etad
 danta
-spfSAmi
-\?
+spfS
 mitra
-\!
 yadi
 citta
 anyaTA
 ; 0588
-manyase\,
+man
 tadA
 praBAta
 yat
-tvayA
+tva
 vaktavya
 tat
-kartavyamiti
-anantara
+kartavya
+anantaram
 ; 0589
 kAka
 pradozakA
-mfgamanAgatamavalokya
-itastata
-anvizyan
+mfga
+anAgata
+avalokya
+itastatas
+anviz
 ; 0590
 taTAviDa
 ta
 dfS
 vac
-saKa
-\!
-kimetat
-\?
-mfgeRokta
+saKi
+etad
+mfga
+ukta
 ; 0591
-avaDIritasuhfdvAkya
-Palametat
-cokta
+avaDIrita
+suhfdvAkya
+Pala
+etad
+ukta
 ; 0592
-suhfdA
+suhfd
 hitakAma
-SfRoti
+Sru
 BAzita
 ; 0593
-vipat
-sannihitA
+vipad
+saMnihita
 nara
 Satrunandana
 ; 0594
 kAka
-brUta
+brU
 vaYcaka
-kvAsta
-\?
+kva
+As
 ; 0595
-mfgeRokta
-manmAMsArTI
-tizWatyatrEva
+mfga
+ukta
+mad
+mAMsa
+arTin
+sTA
 ; 0596
 kAka
-brUta
+brU
 mitra
-\!
-uktameva
-mayA
+ukta
+ma
 pUrva
 ; 0597
 aparADa
 ma
-stIti
-nEtad
+as
+etad
 viSvAsakAraRa
 ; 0598
-vidyata
+vid
 hi
-nfSaMseBya
+nfSaMsa
 Baya
-guRavatAmapi
+guRavat
 ; 0599
-dIpanirvARaganDa
-suhfdvAkyamarunDatI
+dIpa
+nirvARa
+ganDa
+suhfdvAkya
+arunDatI

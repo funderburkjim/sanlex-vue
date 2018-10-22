@@ -12,6 +12,8 @@ var app_wordlists = [
  {name:'Hitopadesha11: 0500-0549',input:'slp1', url:'wordlists/hitopadesha11.txt',},
  {name:'Hitopadesha12: 0550-0599',input:'slp1', url:'wordlists/hitopadesha12.txt',},
  {name:'Hitopadesha13: 0600-0649',input:'slp1', url:'wordlists/hitopadesha13.txt',},
- {name:'Hitopadesha14: 0650-0699',input:'slp1', url:'wordlists/hitopadesha14.txt',},
+ {name:'Hitopadesha14: 0650-0699',input:'slp1', url:'wordlists/hitopadesha14.txt',}, 
+ {name:'Hitopadesha15: 0700-0749',input:'slp1', url:'wordlists/hitopadesha15.txt',},
+ {name:'Hitopadesha16: 0750-0799',input:'slp1', url:'wordlists/hitopadesha16.txt',},
  //{name:'Testiast',input:'iast',url:'wordlists/testiast.txt'}
 ]

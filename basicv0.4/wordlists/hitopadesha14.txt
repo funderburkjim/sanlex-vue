@@ -1,139 +1,155 @@
 ; 0650
 viSvAsa
-praBavantyeta
-viSvAsastatra
+praBU
+etad
+viSvAsa
+tatra
 na
 hita
 ; 0651
-cAnyat
-Satrupakzo
+anya
+Satrupakza
 ; 0652
-Bava
-asmAka
-SatruRA
-sanDirna
+Bavat
+asmad
+Satru
+saMDi
 viDeya
 ukta
 etad
 ; 0653
-SatruRA
+Satru
 hi
-sandaDya
-saMSlizwenApi
-sanDinA
+saMDA
+saMSlizwa
+saMDi
 ; 0654
-sutaptamapi
+sutapta
 pAnIya
-Samayatyeva
+Sam
 pAvaka
 ; 0655
 durjana
 parihartavya
-vidyayAlaNkfta
-san
+vidyA
+alaMkfta
+sat
 ; 0656
-maRinA
+maRi
 BUzita
 sarpa
-kimasO
-BayaNkara
+adas
+BayaMkara
 ; 0657
 yad
 aSakya
-tacCaktya
-yacCaktya
-Sakyameva
-tat
+tad
+Saktya
+yad
+Saktya
+Sakya
+tad
 ; 0658
-nodaka
+udaka
 Sakawa
-yAti
-nOrgacCati
+yA
+nO
+gam
 sTala
 ; 0659
 apara
 ; 0660
-mahatApyarTasAra
-viSvasiti
-Satruzu
+mahat
+arTasAra
+viSvas
+Satru
 ; 0661
-BAryAsu
-viraktAsu
-tadanta
+BAryA
+virakta
+tad
+anta
 jIvana
 ; 0662
 laGupatanaka
-brUta
+brU
 Sruta
-mayA
-sarvaM\,
-taTApi
-mamEtAvan
+ma
+sarva
+mama
+etAvat
 ; 0663
-saNkalpa
-yat
-tvayA
+saMkalpa
+yad
+tva
 saha
-sOhfdyamavaSya
-karaRIyamiti
+sOhfdya
+avaSyam
+karaRIya
 ; 0664
 anyaTA
-anAhAreRAtmAna
+anAhAra
+Atman
 tava
-dvAri
-vyApAdayizyAmIti
+dvAr
+vyApad
 hi
 ; 0665
-mfdGawavat
+mfdGawa
+vat
 suKaBedya
-duHsanDAna
+duHsaMDAna
 durjana
-Bavati
+BU
 ; 0666
-sujanastu
-kanakaGawavad
+sujana
+kanaka
+Gawa
+vat
 durBedya
-cASu
-sanDeya
+ASu
+saMDeya
 ; 0667
 ; 0668
 dravatva
 sarvaloha
 nimitta
-mfgapakziRA
+mfgapakzin
 ; 0669
-BayAl
-loBAcca
+Baya
+loBa
 mUrKa
-saNgata
+saMgata
 darSana
 satA
 ; 0670
 ; 0671
-nArikelasamAkArA
+nArikela
+samAkAra
 dfSyanta
 hi
 suhfjjana
 ; 0672
 anya
-badarikAkArA
-bahireva
+badarikA
+kAra
+bahis
 manohara
 ; 0673
 anya
 ; 0674
 snehacCeda
 pi
-sADUnA
-guRA
-nAyAnti
+sADU
+guRa
+AyA
 vikriyA
 ; 0675
 BaNga
 pi
 hi
-mfRAlAnAmanubaDnanti
-tantava
+mfRAla
+anubanD
+tantu
 ; 0676
 anya
 ; 0677
@@ -141,122 +157,151 @@ Sucitva
 tyAgitA
 SOrya
 sAmAnya
-suKaduHKayo
+suKaduHKa
 ; 0678
 dAkziRya
-cAnurakti
+anurakti
 satyatA
-suhfdguRa
+suhfd
+guRa
 ; 0679
-etErguRErupeta
+etad
+guRa
+upeta
 Bavadanya
-mayA
-suhft
+ma
+suhfd
 ; 0680
 prAptavya
-\?
-ityAdi
-tadvacanamAkarRya
+Adi
+tad
+vacana
+AkarRya
 hiraRyaka
-bahi
-niHsftyAha
+bahis
+niHsf
+ah
 ; 0681
 ApyAyita
 aham
-BavatAmeta
-vacanAmfta
-cokta
+Bavat
+eta
+vacanA
+amfta
+ukta
 ; 0682
 GarmArta
-suSItalajala
+suSItala
+jala
 snAna
 muktAvalI
 ; 0683
-SrIKaRqavilepana
-suKayati
-pratyaNgamapyarpita
+SrIKaRqa
+vilepana
+suK
+pratyaNga
+arpita
 ; 0684
-prItyE
-sajjanaBAzita
-praBavati
+prIti
+sajjana
+BAzita
+praBU
 prAya
 cetasa
 ; 0685
-sadyuktyA
+sadyukti
 parizkfta
-sukftinAmAkfzwimantropama
+sukftin
+Akfzwimantra
+upamA
 ; 0686
 anya
 ; 0687
 rahasyaBeda
 yAcYA
 nEzWurya
-calacittayA
+calacittatA
 ; 0688
 kroDa
 niHsatyatA
-dyUtametan
+dyUta
+etad
 mitra
 dUzaRa
 ; 0689
-ana
+idam
 vacanakrama
-tat
-ekamapi
+tad
+eka
 dUzaRa
-tvayi
-lakzyata
+tva
+lakz
 yatas
 ; 0690
 pawutva
 satyavAditva
 kaTAyoga
-budDyata
+buD
 ; 0691
-astabDatvamacApalya
-pratyakzenAvagamyata
+astabDatva
+acApalya
+pratyakza
+avagam
 ; 0692
 apara
 ; 0693
-anyaTEva
+anyaTA
 hi
 sOhArda
-Bavet
-svacCAntarAtmana
+BU
+su
+acca
+antarAtman
 ; 0694
-pravartata
-nyaTA
+pravft
+anyaTA
 vARI
-SAWyopahatacetasa
+SAWya
+upahata
+cetas
 ; 0695
-manasyanyad
-vacasyanyat
-karmaRyanyad
-durAtmanA
+manas
+anya
+vacas
+anya
+karmaR
+anya
+durAtman
 ; 0696
-manasyeka
-vacasyeka
-karmaRyeka
-mahAtmanA
+manas
+eka
+vacas
+eka
+karmaR
+eka
+mahAtman
 ; 0697
 tad
-Bavatu
-Bavata
-aBimatameva
-ityuktvA
+BU
+Bavat
+aBimata
+uktvA
 hiraRyaka
 mEtrya
-viDa
+viDA
 ; 0698
-BojanaviSezErvAyasa
-santozya
+BojanaviSeza
+vAyasa
+samtuz
 vivara
 pravizwa
 vAyasa
 ; 0699
 svasTAna
 gata
-tataHpraBfti
-tayo
-anya
-anyAhArapradAna
+tatas
+praBfti
+tad
+anyonya
+AhAra
+pradAna

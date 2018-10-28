@@ -37,10 +37,10 @@ uktvA
 citragrIva
 upAKyAna
 ; 0756
-varRitavt
+varRitavat
 tatas
 manTara
-sAdara
+sAdaram
 hiraRyaka
 sampUjya
 ah
@@ -50,8 +50,8 @@ Atman
 nirjanavana
 Agamana
 kAraRa
-AKyAtu
-arhasi
+AKyA
+arh
 ; 0758
 hiraRyaka
 vad
@@ -60,7 +60,7 @@ Sru
 ; 0759
 kaTA
 ; 0760
-asti
+as
 campaka
 aBiDAna
 nagarI
@@ -73,7 +73,9 @@ nAman
 parivrAjaka
 prativas
 ; 0762
-BojanAvaSizwaBikzAnna
+Bojana
+avaSizwa
+BikzAnna
 sahita
 BikzApAtra
 nAgadantaka
@@ -91,87 +93,56 @@ anantara
 ; 0765
 priyasuhfd
 vIRAkarRa
-nAma
+nAman
 parivrAjaka
 samAyAta
 saha
-; 0766   <<< end here 10-21-2018
-nAnAkaTAprasaNgAvasTita
+; 0766   
+nAnA
+kaTA
+prasaNga
+avasTita
 mama
-trAsArTa
+trAsa
+arTa
 jarjaravaMSaKaRqa
 ; 0767
 cUqAkarRa
-BUmimatAqayat
-ta
-viDa
+BUmim
+tAq
+taTAviDam
 dfS
 vIRAkarRa
 vac
 ; 0768
-saKa
-\!
+saKi
 mama
-kaTAvirakta
-anyAsakta
-Bava
-\?
-yatas
-; 0769
-muKa
-prasanna
-vimalA
-dfzwi
-; 0770
 kaTA
-anurAga
-maDurA
-vARI
-; 0771
-sneha
-aDika
-samBramadarSana
-; 0772
-sadA
-anurakta
-jana
-lakzma
-; 0773
-adfzwidAna
-kftapUrvanASana
-; 0774
-Anana
-du
-caritAnukIrtana
-; 0775
-kaTAprasaNga
-nAmavismfti
-; 0776
-viraktaBAva
-jana
-lakzaRa
+virakta
+anyAsakta
+Bavat
+yatas
 ; 0777
 cUqAkarRa
 ukta
 Badra
-\!
 aham
-viraktaH\,
-ki
-paSya
-ayam
+viraktaH
+kim
+dfS
+idam
 mUzika
 ; 0778
 mama
-apakArI
+apakArin
 sadA
 pAtrasTa
 BikzAnna
 utplutya
-Bakzayati
+Bakz
 vIRAkarRa
 ; 0779
-agadanta
+nagadanta
 avalokya
 ah
 kaTam
@@ -181,24 +152,23 @@ svalpabala
 etAvat
 ; 0780
 dUra
-utpatati
-\?
+utpat
 tad
 kAraRa
 Bavitavya
 ; 0781
-kzaRa
+kzaRam
 vicintya
 parivrAjaka
 ukta
 kAraRa
 ; 0782
 DanabAhulya
-pratiBAti
+pratiBA
 yatas
 ; 0783
-Danava
-balava
+Danavat
+balavat
 loka
 sarva
 sarvatra
@@ -207,7 +177,7 @@ sarvadA
 praButva
 DanamUla
 hi
-rAjYA
+rAjan
 upajAyata
 ; 0785
 tatas
@@ -216,26 +186,27 @@ Ada
 parivrAjaka
 vivara
 KanitvA
-cirasaYcita
+cirasaMcita
 ; 0786
 mama
 Dana
 gfhIta
 tatas
 praBfti
-pratyaha
-nijaSaktihIna
+pratyaham
+nija
+Sakti
+hIna
 ; 0787
-sattvotsAharahita
-sva
-AhAra
-utpAdayitu
+sattvotsAha
+rahita
+svAhAra
+utpad
 akzama
-san
-Asa
+sat
+as
 ; 0788
-manda
-manda
+mandam
 upasarpan
 cUqAkarRa
 avalokita
@@ -243,17 +214,18 @@ tatas
 ukta
 ; 0789
 Dana
-balava
+balavat
 loka
 Dana
-Bavati
+BU
 paRqita
 ; 0790
-paSya
-ena
+dfS
+idam
 mUzika
 pApa
-svajAtisamatA
+svajAti
+samatA
 gata
 ; 0791
 ; 0792
@@ -263,20 +235,20 @@ puruza
 alpameDasa
 ; 0793
 kriyA
-sarvA
-vinaSyanti
+sarva
+vinaS
 grIzma
 kusarita
 ; 0794
 apara
 ; 0795
 arTa
-mitrARi
+mitra
 arTa
-bAnDava
+banDu
 ; 0796
 arTa
-puma
+puMs
 loka
 arTa
 hi
@@ -287,7 +259,8 @@ apara
 aputra
 gfha
 SUnya
-sanmitrarahita
+sanmitr
+arahita
 ; 0799
 mUrKa
 diSa

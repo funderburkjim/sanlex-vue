@@ -18,39 +18,22 @@ orphus = (function () {
     to: "Orphus user",
     send: "Send",
     cancel: "Cancel",
+    enterEmail: "Your email (optional):",
     entercmnt: "Comment (optional):"
   };
   var correctionParams = {};
   var correctionUrl = '';
-  // You can use this variable to leave a message to users specifying what
-  // you don't consider as mistakes (so that they wouldn't be annoying
-  // you). If you don't want this, assign an empty string to it instead of
-  // this list.
   var nonMistakes = '';
-  var _9 = "css";
   var w = window;
   var d = w.document;
   var de = d.documentElement;
   var b = d.body;
-  var _f = null;
   var modalWindow = {};
   var _11 = false;
-  var _12 = "";
   var _13 = function () {
     d.onkeypress = _17;
   };
-  var _18 = function () {
-    var n = 0;
-    var _1a = function () {
-      if (++n > 20) {
-        return;
-      }
-      w.status = (n % 5) ? messageTable.thanks : " ";
-      setTimeout(_1a, 100);
-    };
-    _1a();
-  };
-  var _1b = function (e) {
+  var showPseudoForm = function (e) {
     e.style.position = "absolute";
     e.style.top = "-10000px";
     if (b.lastChild) {
@@ -59,42 +42,35 @@ orphus = (function () {
       b.appendChild(e);
     }
   };
-  var _1d = function (_1e) {
-    var div = d.createElement("DIV");
-    div.innerHTML = "<iframe name=\"" + _1e + "\"></iframe>";
-    _1b(div);
-    return d.childNodes[0];
-  };
-  var _20 = function (url, _22, _23) {
-    var _24 = "orphus_ifr";
-    if (!_f) {
-      _f = _1d(_24);
-    }
-    var f = d.createElement("FORM");
-    f.style.position = "absolute";
-    f.style.top = "-10000px";
-    f.action = '';
-    f.method = "post";
-    f.target = _24;
-    var _26 = {
-      ref: url,
-      c_pre: _22.pre,
-      c_sel: _22.text,
-      c_suf: _22.suf,
-      comment: _23
-    };
-    for (var k in _26) {
-      var h = d.createElement("INPUT");
-      h.type = "hidden";
-      h.name = k;
-      h.value = _26[k];
-      f.appendChild(h);
-    }
-    _1b(f);
+  var sendValues = function (url, selection, formValues) {
+    var xhttp = new XMLHttpRequest();
 
-    console.log('form', f);
-    // f.submit();
-    f.parentNode.removeChild(f);
+    var mistakeBlock =
+      removeNewlines(selection.pre + leftSelTag +
+        selection.text + rightSelTag + selection.suf);
+    var valuesToSend = correctionParams;
+    valuesToSend.entry_L = mistakeBlock;
+    valuesToSend.entry_comment = formValues.entry_comment;
+    valuesToSend.entry_email = formValues.entry_email;
+
+    if (correctionUrl) {
+      var bodyParts = [];
+
+      for (var code in valuesToSend) {
+        if (valuesToSend.hasOwnProperty(code)) {
+          var value = valuesToSend[code];
+          bodyParts.push(code + '=' + value);
+        }
+      }
+
+      var body = bodyParts.join('&');
+
+      xhttp.open("POST", correctionUrl, true);
+      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhttp.onreadystatechange = function() {};
+      console.log('body to send', bodyParts, body);
+      xhttp.send(body);
+    }
   };
   var _29 = function () {
     var _2a = 0,
@@ -160,8 +136,7 @@ orphus = (function () {
       }
     }
   };
-  modalWindow.css = function (_36, _37) {
-
+  modalWindow.css = function (_36, processCallback) {
     if (_11) {
       return;
     }
@@ -207,9 +182,11 @@ orphus = (function () {
 
     var commentForm =
       "<form style=\"padding:0;margin:0;border:0\">" +
+      wrapDiv("", messageTable.enterEmail) +
+      "<input id='email' name='email' type='text' maxlength='250' style='width:100%;margin:0.2em 0' />" +
+      wrapDiv("padding-bottom:1em", "") +
       wrapDiv("", messageTable.entercmnt) +
-      "<input type=\"text\" maxlength=\"250\"" +
-      "style=\"width:100%;margin:0.2em 0\" />" +
+      "<input id='comment' name='comment' maxlength='250' style='width:100%;margin:0.2em 0'/>" +
       wrapDiv("padding-bottom:1em", "") +
       buttons +
       "</form>";
@@ -225,13 +202,12 @@ orphus = (function () {
         wrapDiv("padding-bottom:1em", "") +
         commentForm);
 
-    _1b(div);
-    var _3a = div.getElementsByTagName("input");
-    var _3b = div.getElementsByTagName("form");
-    var t = _3a[0];
+    showPseudoForm(div);
+    var commentElement = div.getElementsByTagName("input");
+    var mainForm = div.getElementsByTagName("form");
     var _3d = null;
     var _3e = [];
-    var _3f = function () {
+    var closeModal = function () {
       d.onkeydown = _3d;
       _3d = null;
       div.parentNode.removeChild(div);
@@ -239,7 +215,6 @@ orphus = (function () {
         _3e[i][0].style.visibility = _3e[i][1];
       }
       _11 = false;
-      _12 = t.value;
     };
     var pos = function (p) {
       var s = {
@@ -281,26 +256,26 @@ orphus = (function () {
           s.style.visibility = "hidden";
         }
       }
-      t.value = _12;
-      t.focus();
-      t.select();
       _3d = d.onkeydown;
       d.onkeydown = function (e) {
         if (!e) {
           e = window.event;
         }
-        if (e.keyCode == 27) {
-          _3f();
+        if (e.keyCode === 27) {
+          closeModal();
         }
       };
-      _3b[0].onsubmit = function () {
-        _37(t.value);
-        _3f();
-        _12 = "";
+      console.log('mainForm', mainForm);
+      commentElement[commentElement.length - 2].onclick = function () {
+        processCallback({
+          entry_comment: commentElement.comment.value,
+          entry_email: commentElement.email.value
+        });
+        closeModal();
         return false;
       };
-      _3a[2].onclick = function () {
-        _3f();
+      commentElement[commentElement.length - 1].onclick = function () {
+        closeModal();
       };
     }, 10);
   };
@@ -321,7 +296,6 @@ orphus = (function () {
           _52 = d.selection;
         }
       }
-      var _53 = null;
       if (_52 != null) {
         var pre = "",
           _51 = null,
@@ -407,9 +381,8 @@ orphus = (function () {
     var mistakeBlock =
       removeNewlines(selection.pre + leftSelTag +
         selection.text + rightSelTag + selection.suf);
-    modalWindow.css(mistakeBlock, function (_65) {
-      _20(d.location.href, selection, _65);
-      _18();
+    modalWindow.css(mistakeBlock, function (formValues) {
+      sendValues(d.location.href, selection, formValues);
     });
   };
   var initialization = function (object) {

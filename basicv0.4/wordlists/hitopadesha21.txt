@@ -59,120 +59,128 @@ tAvad
 asulaBa
 labDa
 kfcCra
-pAlyata
+pAl
 ; 1012
 labDanASa
 mftyu
-tasma
+tad
 etad
-cintayet
+cint
 ; 1013
 tfzRA
-cet
-parityaktA
+ced
+parityakta
 daridra
 ISvara
 ; 1014
-ta
+tad
 ced
 prasara
 datta
 dAsya
-Sirasi
+Siras
 sTita
 ; 1015
 apara
 ; 1016
 yad
-yad
 hi
-vAYCeta
+vAYC
 tatas
 vAYCA
 pravartata
 ; 1017
 prApta
-arTata
+arTatas
 arTa
 yatas
 vAYCA
-nivartata
+nivft
 ; 1018
-bahunA\,
+bahu
 viSramBAlApa
-mayA
+viSramBa
+AlApa
+ma
 saha
 kAla
-nIyatA
+nI
 yatas
 ; 1019
-AmraRAnta
+AmaraRAnta
 praRaya
 kopa
 kzaRaBaNgura
+kzaRa
+BaNgura
 ; 1020
 parityAga
 niHsaNga
 BU
-mahAtmanA
+hi
+mahAtman
 ; 1021
 Sru
 laGupatanaka
 brU
 ; 1022
 Danya
-asi
+as
 manTara
-\!
-sarvaTA
-ASrayaRIya
-asi
+sarvadA
+SlAGya
+guRa
+as
 yatas
 ; 1023
 santa
-satA
+sat
 nitya
-ApadudDaraRakzama
+ApadudDaraRa
+kzama
 ; 1024
 gaja
 paNkamagna
-gajA
-DuranDara
+gaja
+DuraMDara
 ; 1025
 apara
 ; 1026
 SlAGya
 eka
-Buvi
-mAnavAnA
+BU
+mAnava
 ; 1027
 uttama
 satpuruza
 Danya
 ; 1028
-arTina
-SaraRAgatA
+arTin
+SaraRAgata
 ; 1029
-ASAviBaNgA
+ASA
+viBaNga
 vimuKa
-prayAnti
+prayA
 ; 1030
 tad
 evam
-ta
+tad
 svecCAhAravihAra
 kurvARa
-santuzwa
+saMtuzwa
 suKa
-nivasanti
+nivas
 sma
 ; 1031
 aTa
 kadA
 cid
-citrANganAmA
+citrANga
+nAma
 mfga
-trAsitas
+; trAsitas ? somehow related to tras
+tras
 tatra
 Agatya
 milita
@@ -188,12 +196,12 @@ pravizwa
 ; 1033
 mUzika
 vivara
-gataH\,
+gata
 kAka
-uqqIya
+uqqI
 vfkzAgra
 ArUQa
-tato
+tatas
 ; 1034
 laGupatanaka
 sudUra
@@ -207,44 +215,45 @@ vacana
 Agatya
 puna
 sarva
-militvA
+mil
 tatra
-evopavizwa
+upavizwa
 ; 1036
 manTara
 ukta
 Badra
 mfga
-\!
 kuSala
-ta
-\?
+tad
 svecCayA
 ; 1037
-udakAdyAhAra
-anuBUyatA
+udaka
+Adi
+AhAra
+anuBU
 avasTAna
 vana
 idam
-sanATIkriyatA
+sanATIkf
 ; 1038
 citrANga
 brU
-lubDakatrAsita
+lubDaka
+trAsita
+tras
 aham
-BavatA
+Bavat
 SaraRa
 Agata
 ; 1039
 tatas
-ca\,
-BavadBi
+Bavat
 saha
 ; 1040
 mitratva
-icCAmi
-Bavanta
-anukampayantu
+iz
+Bavat
+anukamp
 mEtrya
 yatas
 ; 1041
@@ -254,7 +263,8 @@ Baya
 tyajet
 SaraRAgata
 ; 1042
-brahmahatyAsama
+brahmahatyA 
+sama
 pApa
 ah
 manIziRa
@@ -264,11 +274,11 @@ vad
 mitratva
 ; 1044
 tAvat
-asmABi
-saha\,
+asmad
+saha
 ayatna
 nizpanna
-Bavata
+Bavat
 yatas
 ; 1045
 Orasa
@@ -276,24 +286,28 @@ kftasambanDa
 vaMSakramAgata
 ; 1046
 rakzaka
-vyasaneBya
+vyasana
 mitra
 jYeya
 caturviDa
 ; 1047
 tad
-BavatA
-svagfhanirviSeza
+Bavat
+svagfha
+nirviSeza
 sTIyatA
 tad
 Sru
 ; 1048
 mfga
-Ananda
-BUtvA
+sAnanda
+BU
 kftasvecCAhAra
 pAnIya
 pItvA
 ; 1049
-jalAsannavawatarucCAyAyA
-upavizwa
+jala
+Asanna
+vawa
+taruCAyA
+upaviS

@@ -53,6 +53,10 @@ orphus = (function () {
     valuesToSend.entry_comment = formValues.entry_comment;
     valuesToSend.entry_email = formValues.entry_email;
 
+    if (valuesToSend.entry_email) {
+      setCookie('email', valuesToSend.entry_email);
+    }
+
     if (correctionUrl) {
       var bodyParts = [];
 
@@ -91,7 +95,7 @@ orphus = (function () {
     }
     var _2c = 0,
       _2d = 0;
-    if (typeof (w.pageYOffset) == "number") {
+    if (typeof (w.pageYOffset) === "number") {
       _2d = w.pageYOffset;
       _2c = w.pageXOffset;
     } else {
@@ -173,6 +177,7 @@ orphus = (function () {
         _36.replace(leftSelTag,  leftTagRepl)
           .replace(rightSelTag, rightTagRepl));
 
+    var cookieEmailValue = getCookie('email') || '';
     var buttons =
       wrapDiv("text-align:right",
         "<input type=\"submit\" value=\"" + messageTable.send +
@@ -183,7 +188,8 @@ orphus = (function () {
     var commentForm =
       "<form style=\"padding:0;margin:0;border:0\">" +
       wrapDiv("", messageTable.enterEmail) +
-      "<input id='email' name='email' type='text' maxlength='250' style='width:100%;margin:0.2em 0' />" +
+      "<input id='email' name='email' type='text' value='" + cookieEmailValue +
+      "' maxlength='250' style='width:100%;margin:0.2em 0' />" +
       wrapDiv("padding-bottom:1em", "") +
       wrapDiv("", messageTable.entercmnt) +
       "<input id='comment' name='comment' maxlength='250' style='width:100%;margin:0.2em 0'/>" +
@@ -407,6 +413,31 @@ orphus = (function () {
       reportSelected();
       return false;
     }
+  };
+  var setCookie = function (name, value, options) {
+    options = options || {};
+    var d = new Date();
+    d.setTime(d.getTime() + (2 * (3600 * 24 * 365) * 1000));
+    var expires = d;
+    if (expires && expires.toUTCString) {
+      options.expires = expires.toUTCString();
+    }
+    value = encodeURIComponent(value);
+    var updatedCookie = name + "=" + value;
+    for (var propName in options) {
+      updatedCookie += "; " + propName;
+      var propValue = options[propName];
+      if (propValue !== true) {
+        updatedCookie += "=" + propValue;
+      }
+    }
+    document.cookie = updatedCookie;
+  };
+  var getCookie = function(name) {
+    var matches = document.cookie.match(new RegExp(
+      "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
   };
   _13();
   return {

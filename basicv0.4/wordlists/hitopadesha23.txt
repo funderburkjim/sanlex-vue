@@ -341,7 +341,7 @@ manTara
 banDana
 ;CetsyAmi
 CId
-sannihita
+saMnihita
 lubDaka
 Bavat
 ;palAyitavya
@@ -363,13 +363,17 @@ pItvA
 taru
 aDasta
 upavizwa
-san
+;san prap of 'as'
+sat
 ; 1149
 taTAviDa
 mfga
 ;apaSyat
 paS
+; this part not in Kale.
 tatas
 kacCapa
-jalasamIpa
+;jalasamIpa
+jala
+samIpa
 niDA

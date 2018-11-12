@@ -1,8 +1,15 @@
 ; 1150
 tatas
-kartarikAmAda
-prahfzwamanA
-mfgAntika
+kartarikA
+; next ib. of prev
+kartari
+AdA
+prahfzwamanas
+; next ib. of prev
+prahfzwacitta 
+;mfgAntika
+mfga
+antika
 calita
 tatrAntara
 ; 1151
@@ -20,133 +27,175 @@ pravizwa
 ; 1153
 mfga
 Asanna
-ta
+tad
 vyADa
-vilokyotTa
-druta
+;vilokya
+vilok
+utTAya
+drutam
 palAyita
 ; 1154
-pratyAvfttya
+;pratyAvfttya
+pratyAvft
 lubDaka
 yAvat
-tarutalamAyAti
+tarutala
+AyA
 tAvat
-kUrmamapaSyann
+kUrma
+;apaSyat
+paS
 ; 1155
-acintayat
-ucitamevEtat
-mamAsamIkzyakAriRa
+;acintayat
+cint
+ucita
+etad
+mama
+asamIkzyakAriRa
 yatas
 ; 1156
-DruvARi
-parityajya
-aDruvARi
-nizevata
-; 1157
-DruvARi
-naSyanti
+Druva
+parityaj
 aDruva
-nazwameva
+nizev
+; 1157
+Druva
+naS
+aDruva
+nazwa
 hi
 ; 1158
 tatas
-asO
+adas
 svakarmavaSa
 nirASa
 kawaka
 pravizwa
 ; 1159
-manTarAdaya
+manTara
+Adi
 sarva
-muktApada
+;muktApada
+mukta
+Apad
 svasTAna
 gatvA
 ; 1160
-yaTAsuKamAsTita
+suKa
+AsTita
 ; 1161
 aTa
 rAjaputra
-sAnandamukta
+sAnanda
+ukta
 ; 1162
 sarva
-Srutavanta
-suKina
-vaya
+;Srutavanta
+Srutavat
+suKin
+vayam
 sidDa
-na
+; naH
+asmad
 samIhita
 ; 1163
-vizRuSarmovAca
+vizRuSarman
+vac
 ; 1164
 etad
-BavatAmaBilazitamapi
+Bavat
+aBilazita
 sampanna
-aparamapIdamastu
+aparam
+idam
+;astu
+as
 ; 1165
 mitra
-yAntu
-sajjanA
-janapadErlakzmI
+;yAntu
+yA
+sajjana
+janapada
+lakzmI
 samAlaByatA
 ; 1166
 BUpAla
-paripAlayantu
+;paripAlayantu  paripAl -- not in MW
+pari
+pAl
 vasuDA
 SaSvat
 svaDarma
 sTita
 ; 1167
-AstA
-mAnasatuzwaya
-sukftinA
-nItirnavoQeva
-va
+;AstAm  ipv 3s of 'as'  
+as
+;mAnasatuzwaya
+mAnasa
+tuzwi
+sukftin
+nIti
+navoQA
+yuzmad
 ; 1168
 kalyARa
 kurutA
 jana
 Bagava
-candrArDacUqAmaRi
+;candrArDacUqAmaRi
+candrArDa
+cUqAmaRi
 ; 1170
-2
 suhfdBeda
 ; 1171
 aTa
-rAjaputrA
+rAjaputra
 vac
 Arya
-\!
 mitralABa
 ; 1172
-SrutastAvad
-asmABi
-idAnI
+Sruta
+tAvat
+asmad
+idAnIm
 suhfdBeda
-SrotumicCAma
+;Srotum
+Sru
+;icCAmaH
+iz
 ; 1173
-vizRuSarmovAca
+vizRuSarman
+vac
 ; 1174
 suhfdBeda
-tAvacCfRuta\,
-yasyAyamAdya
+tAvat
+;SfRuta
+Sru
+ayam
+Adya
 Sloka
 ; 1175
 varDamAna
 maha
-sneho
-mfgendravfzayorvana
+sneha
+;mfgendravfzayo
+mfgendra
+vfza
+vana
 ; 1176
-piSunenAtilubDa
+piSuna
+atilubDa
 jambuka
 vinASita
 ; 1177
-rAjaputrErukta
-kaTametat
-\?
+rAjaputra
+ukta
+kaTam
+etad
 ; 1178
 vizRuSarmA
-kaTayati
-asti
+kaT
+as
 dakziRApaTa
 ; 1179
 suvarRavatI
@@ -155,94 +204,115 @@ nagarI
 tatra
 varDamAna
 nAma
-vaRig
-nivasati
+vaRij
+nivas
 ; 1180
 pracura
 pi
 vitta
 para
 banDUn
-atisamfdDa
+;atisamfdDa  not in mw
+ati
+samfdDa
 ; 1181
 samIkzya
-punararTavfdDi
-karaRIyeti
-matirbaBUva
-yataH\,
+punar
+arTavfdDi
+karaRIya
+mati
+baBUva
+yataH
 ; 1182
-aDa
-aDa
-paSyata
-mahimA
-nopacIyata
+aDas
+paSyat
+mahiman
+;upacIyata
+upaci
 ; 1183
-uparyupari
-paSyanta
+upari
+paSyat
+; sarve = m. 3p sarva
 sarva
-daridrati
+;daridrati   Intens. 3p (mw drA)
 ; 1184
-apara
+aparam
 ; 1185
-brahmahApi
+brahmahan
 nara
 pUjya
-yasyAsti
+as
 vipula
 Dana
 ; 1186
-SaSinastulyavaMSa
+SaSin
+tulyavaMSa
 nirDana
-pariBUyata
+pariBU
 ; 1187
 anya
 ; 1188
-avyavasAyinamalasa
+avyavasAyin
+alasa
 dEvapara
-sahasAcca
+sahasa
 parihIRa
 ; 1189
-pramadeva
+pramadA
 hi
-vfdDapati
-necCatyavagUhitu
+;vfdDapati
+vfdDa
+pati
+;icCati
+iz
+;avagUhitum
+avaguh
 lakzmI
 ; 1190
 ; 1191
 Alasya
 strIsevA
 sarogatA
-janmaBUmivAtsalya
+;janmaBUmivAtsalya
+janma
+BUmi
+vAtsalya
 ; 1192
-santoza
+saMtoza
 BIrutva
 zaq
-vyAGAtA
+vyAGAta
 mahattva
 ; 1193
 yatas
 ; 1194
-sampadA
-susTiraMmanya
-Bavati
-svalpayApi
+sampad
+susTira
+man
+;Bavati
+BU
+; svalpayA ? f 3s from svalpa?  'wealth' acc. to Kale
+svalpa
 ; 1195
 kftakftya
-viDirmanya
-varDayati
-tA
+viDi
+man
+vfD
+tad
 ; 1196
 apara
 ; 1197
 nirutsAha
 nirAnanda
-nirvIryamarinandana
+nirvIrya
+arinandana
 ; 1198
 mA
 sma
-sImantinI
-kAcij
+sImantin
+cid
 janayet
-putramIdfSa
+putra
+IdfSa
 ; 1199
 ukta

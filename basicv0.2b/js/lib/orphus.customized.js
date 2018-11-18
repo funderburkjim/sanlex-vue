@@ -18,8 +18,8 @@ orphus = (function () {
     to: "Orphus user",
     send: "Send",
     cancel: "Cancel",
-    enterEmail: "Your email (optional):",
-    entercmnt: "Comment (optional):"
+    enterEmail: "Your email or name (optional):",
+    entercmnt: "Correction/comment (optional):"
   };
   var correctionParams = {};
   var correctionUrl = '';
@@ -45,9 +45,13 @@ orphus = (function () {
   var sendValues = function (url, selection, formValues) {
     var xhttp = new XMLHttpRequest();
 
-    var mistakeBlock =
+    /*var mistakeBlock =
       removeNewlines(selection.pre + leftSelTag +
-        selection.text + rightSelTag + selection.suf);
+        selection.text + rightSelTag + selection.suf);*/
+
+    var mistakeBlock =
+      removeNewlines(leftSelTag +
+        selection.text + rightSelTag);
     var valuesToSend = correctionParams;
     valuesToSend.entry_L = mistakeBlock;
     valuesToSend.entry_comment = formValues.entry_comment;
@@ -57,7 +61,7 @@ orphus = (function () {
       setCookie('email', valuesToSend.entry_email);
     }
 
-    if (correctionUrl) {
+    if (correctionUrl && valuesToSend.entry_comment.length > 0) {
       var bodyParts = [];
 
       for (var code in valuesToSend) {
@@ -74,6 +78,9 @@ orphus = (function () {
       xhttp.onreadystatechange = function() {};
       console.log('body to send', bodyParts, body);
       xhttp.send(body);
+    } else if (!valuesToSend.entry_comment || valuesToSend.entry_comment.length === 0) {
+      alert('Correction field shouldn\'t be empty');
+      return false;
     }
   };
   var _29 = function () {
@@ -180,19 +187,19 @@ orphus = (function () {
     var cookieEmailValue = getCookie('email') || '';
     var buttons =
       wrapDiv("text-align:right",
-        "<input type=\"submit\" value=\"" + messageTable.send +
+        "<input type=\"button\" value=\"" + messageTable.send +
         "\" style=\"width:7em;font-weight:bold\">&nbsp;" +
         "<input type=\"button\" value=\"" + messageTable.cancel +
         "\" style=\"width:5em\">");
 
     var commentForm =
       "<form style=\"padding:0;margin:0;border:0\">" +
+      wrapDiv("", messageTable.entercmnt) +
+      "<input id='comment' name='comment' maxlength='250' style='width:100%;margin:0.2em 0'/>" +
+      wrapDiv("padding-bottom:1em", "") +
       wrapDiv("", messageTable.enterEmail) +
       "<input id='email' name='email' type='text' value='" + cookieEmailValue +
       "' maxlength='250' style='width:100%;margin:0.2em 0' />" +
-      wrapDiv("padding-bottom:1em", "") +
-      wrapDiv("", messageTable.entercmnt) +
-      "<input id='comment' name='comment' maxlength='250' style='width:100%;margin:0.2em 0'/>" +
       wrapDiv("padding-bottom:1em", "") +
       buttons +
       "</form>";
@@ -273,11 +280,13 @@ orphus = (function () {
       };
       console.log('mainForm', mainForm);
       commentElement[commentElement.length - 2].onclick = function () {
-        processCallback({
+        var result = processCallback({
           entry_comment: commentElement.comment.value,
           entry_email: commentElement.email.value
         });
-        closeModal();
+        if (result !== false) {
+          closeModal();
+        }
         return false;
       };
       commentElement[commentElement.length - 1].onclick = function () {
@@ -388,7 +397,7 @@ orphus = (function () {
       removeNewlines(selection.pre + leftSelTag +
         selection.text + rightSelTag + selection.suf);
     modalWindow.css(mistakeBlock, function (formValues) {
-      sendValues(d.location.href, selection, formValues);
+      return sendValues(d.location.href, selection, formValues);
     });
   };
   var initialization = function (object) {

@@ -335,7 +335,10 @@ atas
 aham
 ;bravImi
 brU
-parADikAracarcA
+;parADikAracarcA
+para
+aDikAra
+carcA
 ityAdi
 paSya\,
 ; 1344
@@ -352,11 +355,11 @@ carcA
 kf
 ; 1345
 adya
-tayA
-carcayA
+tad
+carcA
 ; 1346
 prayojana
-yata
+yatas
 ;AvayoH
 asmad
 ;BakzitaSezAhAra
@@ -385,5 +388,6 @@ tva
 yatas
 ; 1349
 suhfd
-;upakAra
+;upakArakAraRa
+upakAra
 kAraRa

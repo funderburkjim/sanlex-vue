@@ -1,126 +1,177 @@
 ; 1350
 dvizatA
-apakArakAraRa
+;apakArakAraRa
+apakAra
+kAraRa
 ; 1351
-nfpasaMSraya
-izyata
+;nfpasaMSraya
+nfpa
+saMSraya
+;izyate
+iz
 buDa
 ; 1352
 jaWara
-biBarti
-kevala
+;biBarti
+Bf
+kevalam
 ; 1353
 jIvita
-jIvanti
-viprA
+jIv
+;jIvanti
+jIv
+vipra
 mitrARi
 bAnDava
 ; 1354
 saPala
 jIvita
-AtmArTa
-jIvati
+;AtmArTa
+Atman
+ArTa
+;jIvati
+jIv
 ; 1355
 ; 1356
-yasmin
-jIvati
-jIvanti
-bahava
-jIvatu
+;yasmin
+yad
+;jIvati
+jIvat
+;jIvanti
+jIv
+bahu
+;jIvatu
+jIv
 ; 1357
 kAka
-kuruta
-caYcvA
+;kurute
+kf
+caYcu
 svodarapUraRa
 ; 1358
-paSya
+;paSya
+paS
 ; 1359
-paYcaBi
-yAti
+paYca
+;yAti
+yA
 dAsatva
 purARa
 mAnava
 ; 1360
 lakza
-kftI
+kftin
 lakza
-laByata
+;laByate
+laB
 ; 1361
 anya
 ; 1362
-manuzyajAtO
-tulyAyA
+manuzyajAti
+tulya
 Bftyatva
-atigarhita
+;atigarhita
+ati
+garhita
 ; 1363
 praTama
 tad
-jIvatsu
-gaRyata
+jIvat
+;gaRyate
+gaR
 ; 1364
 ukta
 ; 1365
-vAjivAraRaloha
-kAzWapAzARavAsasA
+;vAjivAraRaloha
+vAjin
+vAraRa
+loha
+;kAzWapAzARavAsasAm
+kAzWa
+pAzARa
+vAsas
 ; 1366
-nArIpuruzatoya
+;nArIpuruzatoya
+nArI
+puruza
+toya
 antara
-hadahantara
+mahat
+antara
 ; 1367
 hi
 svalpa
-atiricyata
+;atiricyate
+atiric
 ; 1368
-svalpasnAyuvasAvaSezamalina
+;svalpasnAyuvasAvaSezamalina
+svalpa
+snAya
+vasAvaSezamalina
 nirmAMsa
 asTika
 ; 1369
-SvA
+Svan
 labDvA
 paritoza
-eti
-Bavet
+;eti
+i
+;Bavet
+BU
 kzuDa
-SAntaya
+;SAntaye
+SAnti
 ; 1370
-siMho
+siMha
 jambuka
 aNka
 Agata
-tyaktvA
-nihanti
+;tyaktvA
+tyaj
+;nihanti
+nihan
 dvipa
 ; 1371
 sarva
 kfcCragata
-vAYCati
+;vAYCati
+vAYC
 jana
 sattvAnurUpa
 Pala
 ; 1372
 apara
-ca\,
-sevyasevakayo
+;sevyasevakayoH
+sevya
+sevaka
 antara
 paSya
 ; 1373
 lANgUlacAlana
-aDa
-caraRAvapAta
+aDas
+;caraRAvapAta
+caraRa
+avapAta
 ; 1374
 BUmO
 nipatya
-vadanodaradarSana
+;vadanodaradarSana
+vadana
+udara
+darSana
 ; 1375
-SvA
+Svan
 piRqada
-kuruta
-gajapuNgava
+;kurute
+kf
+gajapuMgava
 ; 1376
-DIra
-vilokayati
+DIram
+;vilokayati
+vilok
 cAwuSata
-BuNkta
+;BuNkte
+Buj
 ; 1377
 ; 1378
 yaj
@@ -129,68 +180,91 @@ kzaRa
 praTita
 manuzya
 ; 1379
-vijYAnavikramayaSoBi
+;vijYAnavikramayaSoBi
+vijYAna
+vikrama
+yaSas
 aBajyamAna
 ; 1380
 tad
 nAma
 jIvita
 iha
-pravadanti
-tad
-jYa
+;pravadanti
+pravad
+tajjYa
 ; 1381
 kAka
-jIvati
+;jIvati
+jIv
 cira
 bali
-BuNkta
+;BuNkte
+Buj
 ; 1382
 apara
 ; 1383
 Atmaja
-gurO
+guru
 Bftyavarga
 ; 1384
 dIna
 dayA
-kuruta
+;kuruta
+kf
 banDuvarga
 ; 1385
-jIvitaPala
+;jIvitaPala
+jIvita
+Pala
 manuzyaloka
 ; 1386
 kAka
-jIvati
+;jIvati
+jIv
 cira
 bali
-BuNkta
+;BuNkte
+Buj
 ; 1387
 apara
 ; 1388
-ahitahitavicAraSUnyabudDa
+;ahitahitavicAraSUnyabudDa
+ahita
+hita
+vicAra
+SUnya
+budDa
 ; 1389
-Srutisamaya
-bahuBi
-bahi
-kfta
+;Srutisamaya
+Sruti
+samaya
+bahu
+bahizkfta
 ; 1390
-udaraBaraRamAtrakevalecCo
+;udaraBaraRamAtrakevalecCa
+udara
+BaraRa
+mAtra
+kdevala
+icCA
 ; 1391
-puruzapaSo
-paSo
+puruzapaSu
+paSu
 viSeza
 ; 1392
 karawaka
 brU
 ; 1393
-AvA
+asmad
 tAvat
-apraDAnO
+apraDAna
 tadA
-apyAvayo
-anayA
-vicAraRayA
+api
+asmad
+;anayA
+idam
+vicAraRa
 ; 1394
 damanaka
 brU
@@ -200,7 +274,8 @@ kAla
 amAtya
 praDAnatA
 apraDAnatA
-laBante\,
+;laBante
+laB
 yatas
 ; 1396
 cid
@@ -217,6 +292,10 @@ loka
 gurutva
 viparItatA
 ; 1399
-svacezwitAni
+;svacezwitAni
+sva
+cezwita
 nara
-nayanti
+;nayanti
+nI
+

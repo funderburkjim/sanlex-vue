@@ -3,7 +3,7 @@ orphus = (function () {
   var rightSelTag     = "<!!!>";
   // Controls how many characters to the left and right of selected text
   // would be included in the error report.
-  var marginLength    = 60;
+  var marginLength    = 80;
   // Specifies the maximum amount of characters sent, together with margins
   // and left/rightSelTag-s. I haven't checked whether Orphus server would
   // be willing to receive more than 256 characters.
@@ -19,7 +19,7 @@ orphus = (function () {
     send: "Send",
     cancel: "Cancel",
     enterEmail: "Your email or name (optional):",
-    entercmnt: "Correction/comment (optional):"
+    entercmnt: "Correction/comment:"
   };
   var correctionParams = {};
   var correctionUrl = '';
@@ -45,23 +45,21 @@ orphus = (function () {
   var sendValues = function (url, selection, formValues) {
     var xhttp = new XMLHttpRequest();
 
-    /*var mistakeBlock =
-      removeNewlines(selection.pre + leftSelTag +
-        selection.text + rightSelTag + selection.suf);*/
+    var mistakeBlock = removeNewlines(selection.pre + leftSelTag + selection.text + rightSelTag + selection.suf);
 
-    var mistakeBlock =
+    /*var mistakeBlock =
       removeNewlines(leftSelTag +
-        selection.text + rightSelTag);
+        selection.text + rightSelTag);*/
     var valuesToSend = correctionParams;
-    valuesToSend.entry_L = mistakeBlock;
-    valuesToSend.entry_comment = formValues.entry_comment;
+    valuesToSend.entry_old = mistakeBlock;
+    valuesToSend.entry_new = formValues.entry_comment;
     valuesToSend.entry_email = formValues.entry_email;
 
     if (valuesToSend.entry_email) {
       setCookie('email', valuesToSend.entry_email);
     }
 
-    if (correctionUrl && valuesToSend.entry_comment.length > 0) {
+    if (correctionUrl && valuesToSend.entry_new.length > 0) {
       var bodyParts = [];
 
       for (var code in valuesToSend) {
@@ -78,7 +76,7 @@ orphus = (function () {
       xhttp.onreadystatechange = function() {};
       console.log('body to send', bodyParts, body);
       xhttp.send(body);
-    } else if (!valuesToSend.entry_comment || valuesToSend.entry_comment.length === 0) {
+    } else if (!valuesToSend.entry_new || valuesToSend.entry_new.length === 0) {
       alert('Correction field shouldn\'t be empty');
       return false;
     }

@@ -48,6 +48,7 @@ var app = new Vue({
   `,
 
   data: {
+    correctionsUrl: 'http://sanskrit-lexicon.uni-koeln.de/php/correction_form_response.php',
     parms: {
       input:'slp1',  // default value. Get from cookies
       output:'deva',
@@ -90,102 +91,117 @@ var app = new Vue({
     }
   },
   methods:{
-  updateParmCookies: function() {
-    //console.log('updateParmCookies');
-    const cnames=['input','output','dict','accent'];
-    cnames.forEach( (cname) =>this.setCookie(cname,this.parms[cname],365));
+    updateParmCookies: function() {
+      //console.log('updateParmCookies');
+      const cnames=['input','output','dict','accent'];
+      cnames.forEach( (cname) =>this.setCookie(cname,this.parms[cname],365));
 
-  },
-  changeWordlist: function(v) {
-    console.log('app.changeWordlist. v=',v);
-    this.wordlist = v;
-  },
-  updateParm: function(v,parm){
-    //this.parms[parm] = v;
-    //this.parms.$set(parm,v);
-    Vue.set(this.parms,parm,v);
-    this.setCookie(parm,v,365);
-  },
-  selectWord: function(v) {
-    console.log('app.selectWord. v=',v);
-    //this.parms['key']= v;
-    this.updateParm(v,'key');
-    //this.parms['input'] = this.wordlist.input;
-    //this.parms.$set('input',this.wordlist.input);
-    this.updateParm(this.wordlist.input,'input');
-    this.searchText1 = this.wordlist.input;
-    this.getData();
-    this.searchText=v;
-    console.log('searchText=',this.searchText);
+    },
+    changeWordlist: function(v) {
+      console.log('app.changeWordlist. v=',v);
+      this.wordlist = v;
+    },
+    updateParm: function(v,parm){
+      //this.parms[parm] = v;
+      //this.parms.$set(parm,v);
+      Vue.set(this.parms,parm,v);
+      this.setCookie(parm,v,365);
+    },
+    selectWord: function(v) {
+      console.log('app.selectWord. v=',v);
+      //this.parms['key']= v;
+      this.updateParm(v,'key');
+      //this.parms['input'] = this.wordlist.input;
+      //this.parms.$set('input',this.wordlist.input);
+      this.updateParm(this.wordlist.input,'input');
+      this.searchText1 = this.wordlist.input;
+      this.getData();
+      this.searchText=v;
+      console.log('searchText=',this.searchText);
 
-  },
-  cologne_apidev_url: function () {
-  let url = "https://funderburkjim.pythonanywhere.com/cologne/";
-  url = `${url}awork/apidev/getword.php?`;
-  url = `${url}dict=${this.parms.dict}&key=${this.parms.key}&input=${this.parms.input}&output=${this.parms.output}&accent=${this.parms.accent}&dispcss=no`;
-  console.log('cologne_apidev_url: ',url);
-  return url;
-  },
-  getData: function() {
-    // construct getdatax_html value
-    // construct url
-    this.getdatax_html=''; // clear initially, so scroll will be at top
-    let url = this.cologne_apidev_url();
-    if (url == ''){return;} // error condition
-    let self = this;
-    axios.get(url)
-    .then(function(data) {
-     console.log('getData:',data);
-     self.getdatax_html = data.data;
-    })
-    .catch(function (error) {
-      // handle error
-      this.console.log(error);
-      self.getdatax_html="<p>Error from getData. check console</p>";
-    });
-  },
-  citationEnter: function(e) {
-   this.parms.key = e.target.value;
-   this.getData();
-  },
-  setCookie: function(cname,cvalue,exdays) {
+    },
+    cologne_apidev_url: function () {
+      let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+      url = `${url}awork/apidev/getword.php?`;
+      url = `${url}dict=${this.parms.dict}&key=${this.parms.key}&input=${this.parms.input}&output=${this.parms.output}&accent=${this.parms.accent}&dispcss=no`;
+      console.log('cologne_apidev_url: ',url);
+      return url;
+    },
+    getData: function() {
+      // construct getdatax_html value
+      // construct url
+      this.getdatax_html=''; // clear initially, so scroll will be at top
+      let url = this.cologne_apidev_url();
+      if (url == ''){return;} // error condition
+      let self = this;
+      axios.get(url)
+        .then(function(data) {
+          console.log('getData:',data);
+          self.getdatax_html = data.data;
+
+          console.log('orphus', orphus);
+
+          orphus.init({
+            correctionsUrl: self.correctionsUrl,
+            params: {
+              entry_hw: self.parms.key,
+              entry_new: '',
+              entry_old: '',
+              entry_email: '',
+              entry_L: '',
+              entry_dict: self.parms.dict,
+              entry_comment: '',
+            }
+          });
+        })
+        .catch(function (error) {
+          // handle error
+          this.console.log(error);
+          self.getdatax_html="<p>Error from getData. check console</p>";
+        });
+    },
+    citationEnter: function(e) {
+      this.parms.key = e.target.value;
+      this.getData();
+    },
+    setCookie: function(cname,cvalue,exdays) {
       var d = new Date();
       d.setTime(d.getTime() + (exdays*24*60*60*1000));
       var expires = "expires=" + d.toGMTString();
       document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  },
+    },
 
-  getCookie: function(cname) {
+    getCookie: function(cname) {
       var name = cname + "=";
       var decodedCookie = decodeURIComponent(document.cookie);
       var ca = decodedCookie.split(';');
       for(var i = 0; i < ca.length; i++) {
-          var c = ca[i];
-          while (c.charAt(0) == ' ') {
-              c = c.substring(1);
-          }
-          if (c.indexOf(name) == 0) {
-              return c.substring(name.length, c.length);
-          }
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
       }
       return "";
-  }
+    }
 
-},
- created: function () {
-   let cnames = ['input','output','accent','dict'];
-   for(cname in this.parms) {
-     if (cnames.includes(cname)) {
-       //console.log('mounted',x,this.parms[x]);
-       let cval = this.getCookie(cname);
-       //console.log('mounted: cookie value for ',cname,'=',cval);
-	     if(cval != '') {
+  },
+  created: function () {
+    let cnames = ['input','output','accent','dict'];
+    for(cname in this.parms) {
+      if (cnames.includes(cname)) {
+        //console.log('mounted',x,this.parms[x]);
+        let cval = this.getCookie(cname);
+        //console.log('mounted: cookie value for ',cname,'=',cval);
+        if(cval != '') {
           this.parms[cname] = cval;
 
-	     } else {
-         this.setCookie(cname,this.parms[cname],365);
-	     }
-     }
-   }
- }
+        } else {
+          this.setCookie(cname,this.parms[cname],365);
+        }
+      }
+    }
+  }
 });

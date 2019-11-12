@@ -131,7 +131,7 @@ var app = new Vue({
 
   },
   cologne_apidev_url: function () {
-  let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+  let url = "https://www.sanskrit-lexicon.uni-koeln.de/scans/";
   url = `${url}awork/apidev/getword.php?`;
   url = `${url}dict=${this.parms.dict}&key=${this.parms.key}&input=${this.parms.input}&output=${this.parms.output}&accent=${this.parms.accent}&dispcss=no`;
   //console.log('cologne_apidev_url: ',url);
@@ -156,7 +156,7 @@ var app = new Vue({
     });
   },
   cologne_apidev_url2: function () {
-  let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+  let url = "https://www.sanskrit-lexicon.uni-koeln.de/scans/";
   url = `${url}awork/apidev/getword.php?`;
   url = `${url}dict=${this.parms.dict2}&key=${this.parms.key2}&input=${this.parms.input}&output=${this.parms.output}&accent=${this.parms.accent}&dispcss=no`;
   //console.log('cologne_apidev_url2: ',url);

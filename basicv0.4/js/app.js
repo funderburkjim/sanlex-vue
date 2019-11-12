@@ -118,7 +118,7 @@ var app = new Vue({
 
   },
   cologne_apidev_url_python: function () {
-  let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+  let url = "https://www.sanskrit-lexicon.uni-koeln.de/scans/";
   url = `${url}awork/apidev/getword.php?`;
   //let key1 = escape(this.parms.key);
   let key1 = this.parms.key;
@@ -128,7 +128,6 @@ var app = new Vue({
   },
   cologne_apidev_url: function () {
   let url = "http://sanskrit-lexicon.uni-koeln.de/scans/"
-  //let url = "https://funderburkjim.pythonanywhere.com/cologne/";
   url = `${url}awork/apidev/getword.php?`;
   let key1 = escape(this.parms.key);
   url = `${url}dict=${this.parms.dict}&key=${key1}&input=${this.parms.input}&output=${this.parms.output}&accent=${this.parms.accent}&dispcss=no`;

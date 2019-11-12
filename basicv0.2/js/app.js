@@ -59,7 +59,8 @@ var app = new Vue({
    this.parmAccent = v;
   },
   cologne_webtc_url: function() {
-  let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+  //let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+  let url = "https://www.sanskrit-lexicon.uni-koeln.de/scans/";
   let dictyearmap = {"ACC":"2014" , "AE":"2014" , "AP":"2014" , "AP90":"2014",
       "BEN":"2014" , "BHS":"2014" , "BOP":"2014" , "BOR":"2014",
       "BUR":"2013" , "CAE":"2014" , "CCS":"2014" , "GRA":"2014",
@@ -73,13 +74,15 @@ var app = new Vue({
    this.getdatax_html = `<p>Invalid Dictionary: ${this.parmDict}</p>`;
     return '';
   }
-  let year = dictyearmap[this.parmDict];
+  let year = '2020'; dictyearmap[this.parmDict];
+  
   url = `${url}/${this.parmDict}Scan/${year}/web/webtc/getword.php?`;
   url = `${url}key=${this.parmKey}&input=${this.parmInput}&output=${this.parmOutput}&accent=${this.parmAccent}`;
   return url;
   },
   cologne_apidev_url: function () {
-  let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+  //let url = "https://funderburkjim.pythonanywhere.com/cologne/";
+  let url = "https://www.sanskrit-lexicon.uni-koeln.de/scans/";
   url = `${url}awork/apidev/getword.php?`;
   url = `${url}dict=${this.parmDict}&key=${this.parmKey}&input=${this.parmInput}&output=${this.parmOutput}&accent=${this.parmAccent}`;
   return url;
